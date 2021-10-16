@@ -1,130 +1,405 @@
 <!DOCTYPE html>
-<html lang="en">
+<HTML dir='ltr' lang='id'>
+<!-- Awal Seo by : Ambo Dev -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Page</title>
-
-    <!-- Custom Css -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- FontAwesome 5 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <meta content='width=device-width, initial-scale=1' name='viewport' />
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    <!-- deskripsi website -->
+    <meta content='Jasa Pembuatan Website Professional' name='description' />
+    <!-- nama website -->
+    <title>AmboDev </title>
+    <!-- tidak mengambil cache dari website -->
+    <meta http-equiv="cache-control" content="no-cache" />
+    <!-- file css tidak di compress -->
+    <link href='assets/css/dicoding.css' rel='stylesheet' />
+    <!-- Menggunakan Font Icon dari iconicons -->
+    <link href='https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css' rel='stylesheet' />
+    </style>
 </head>
+
+<!-- Akhir Seo by : Ambo Dev -->
+
 <body>
-    <!-- Navbar top -->
-    <div class="navbar-top">
-        <div class="title">
-            <h1>Profile</h1>
-        </div>
-        </div>
-
-        <!-- Navbar -->
-        <ul>
-            <li>
-                <a href="#message">
-                    <span class="icon-count">29</span>
-                    <i class="fa fa-envelope fa-2x"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#notification">
-                    <span class="icon-count">59</span>
-                    <i class="fa fa-bell fa-2x"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#sign-out">
-                    <i class="fa fa-sign-out-alt fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-        <!-- End -->
-    </div>
-    <!-- End -->
-
-    <!-- Sidenav -->
-    <div class="sidenav">
-        <div class="profile">
-          <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="100" height="100">
-
-            <div class="name">
-                ImDezCode
+    <!-- header awal -->
+    <div id='header'>
+        <div class='header-one'>
+            <div id='global-header'>
+                <div class='wrapper'>
+                    <div class='logo'><a title='Ambo Dev'><img alt='Ambo Dev'
+                                src='assets/img/ambodev_white.png' /></a>
+                    </div>
+                    <a class='show-navigation' href='#'><i class='icon ion-ios-grid'></i></a>
+                    <a class='close-navigation' href='#'><i class='icon ion-ios-close'></i></a>
+                    <nav class='navigation' itemprop='mainEntity' itemscope='itemscope'
+                        itemtype='https://schema.org/SiteNavigationElement'>
+                        <img alt='Ambo Dev' class='mobile-logo lazy' src='assets/img/ambodev_black.png' />
+                        <ul class='navi-left'>
+                            <li><a href='#' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
+                            <li><a href='#' itemprop='url' title='FAQ'><span itemprop='name'>FAQ</span></a>
+                            </li>
+                            <li><a href='#' itemprop='url' title='Blog'><span itemprop='name'>Blog</span></a>
+                            </li>
+                            <li class='sub-menu'><a href='#' itemprop='url' title='Bahan Web'><span
+                                        itemprop='name'>Bahan Web</span></a>
+                                <ul class='sub-navi'>
+                                    <li><a href='#' itemprop='url' title='CSS'><span itemprop='name'>CSS</span></a></li>
+                                    <li><a href='#' itemprop='url' title='JavaScript'><span
+                                                itemprop='name'>JavaScript</span></a></li>
+                                    <li><a href='#' itemprop='url' title='HTML'><span itemprop='name'>Html</span></a>
+                                    </li>
+                                    <li><a href='#' itemprop='url' title='Icon SVG & Ionicons'><span
+                                                itemprop='name'>Icon SVG & Ionicons
+                                            </span></a></li>
+                                    <li><a href='#' itemprop='url' title='Grid Column'><span itemprop='name'>Grid
+                                                Column</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/Person'>
+                            <link href='AmboDev' itemprop='url' />
+                            <ul class='navi-right'>
+                                <li><a href='https://www.facebook.com/' itemprop='sameAs' rel='noopener'
+                                        target='_blank' title='Facebook'><i class='icon ion-logo-facebook'></i></a></li>
+                                <li><a href='https://twitter.com/' itemprop='sameAs' rel='noopener'
+                                        target='_blank' title='Twitter'><i class='icon ion-logo-twitter'></i></a></li>
+                                <li><a href='https://www.instagram.com/' itemprop='sameAs' rel='noopener'
+                                        target='_blank' title='Instagram'><i class='icon ion-logo-instagram'></i></a>
+                                </li>
+                                <li><a href='https://www.youtube.com/' itemprop='sameAs' rel='noopener'
+                                        target='_blank' title='Youtube'><i class='icon ion-logo-youtube'></i></a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <div class="job">
-                Web Developer
-            </div>
-        </div>
-
-        <div class="sidenav-url">
-            <div class="url">
-                <a href="#profile" class="active">Profile</a>
-                <hr align="center">
-            </div>
-            <div class="url">
-                <a href="#settings">Settings</a>
-                <hr align="center">
-            </div>
-        </div>
-    </div>
-    <!-- End -->
-
-    <!-- Main -->
-    <div class="main">
-        <marquee><h2>IDENTITY</h2></marquee>
-        <div class="card">
-            <div class="card-body">
-                <i class="fa fa-pen fa-xs edit"></i>
-                <table>
-                    <body>
-                        <tr>
-                            <td>Name</td>
-                            <td>:</td>
-                            <td>ImDezCode</td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>:</td>
-                            <td>imdezcode@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>Address</td>
-                            <td>:</td>
-                            <td>Bali, Indonesia</td>
-                        </tr>
-                        <tr>
-                            <td>Hobbies</td>
-                            <td>:</td>
-                            <td>Diving, Reading Book</td>
-                        </tr>
-                        <tr>
-                            <td>Job</td>
-                            <td>:</td>
-                            <td>Web Developer</td>
-                        </tr>
-                        <tr>
-                            <td>Skill</td>
-                            <td>:</td>
-                            <td>PHP, HTML, CSS, Java</td>
-                        </tr>
-                    </body>
-                </table>
-            </div>
-        </div>
-
-        <footer>
-            <div class="container">
-              <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="50" height="50">
-              <p>Kelompok 6D :.</p>
-              <p>1. Adi</p>
-              <p>2. Joni</p>
-              <p>3. Agus</p>
-              <p>4. Fauzi</p>
-            </div>
-          </footer>
-
-            </div>
+            <header id='primary-header' itemscope='' itemtype='https://schema.org/WPHeader'>
+                <div class='wrapper'>
+                    <h1 itemprop='name'>AmboDev</h1>
+                    <p itemprop='description'>Penyedia Layanan Pembuatan Website Yang Terstruktur dan Professional.</p>
+                </div>
+            </header>
+            <svg class='wave' height='50px' preserveAspectRatio='none' viewBox='0 0 1920 75' width='100%'
+                xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+                <defs>
+                    <clipPath id='adacinta1'>
+                        <rect class='a' height='75' width='1920'></rect>
+                    </clipPath>
+                </defs>
+                <g class='b'>
+                    <path class='c'
+                        d='M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48'>
+                    </path>
+                </g>
+                <g class='b'>
+                    <path class='d'
+                        d='M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10'>
+                    </path>
+                </g>
+                <g class='b'>
+                    <path class='d'
+                        d='M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24'>
+                    </path>
+                </g>
+                <g class='b'>
+                    <path class='d'
+                        d='M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150'>
+                    </path>
+                </g>
+            </svg>
+            <div class='shape shape-style-1'><span class='span-150'></span><span class='span-50'></span><span
+                    class='span-50'></span><span class='span-75'></span><span class='span-100'></span><span
+                    class='span-75'></span><span class='span-50'></span><span class='span-100'></span><span
+                    class='span-50'></span><span class='span-100'></span></div>
         </div>
     </div>
+    <!-- header akhir -->
+    <div id='content'>
+        <div class='wrapper'>
+            <div class='post-container'>
+                <div class='main section' id='main' name='Post Settings'>
+                    <div class='widget Blog' data-version='1' id='Blog1'>
+                        <div class='blog-posts hfeed' id='grid'>
+                            <div class='post-outer'>
+                                <!-- awal artikel -->
+                                <article class='post hentry' data-timestamp='8/04/2021'
+                                    id='productID-1234567890123456789'>
+                                    <div class='product-content produk' itemprop='item' itemscope=''
+                                        itemtype='http://schema.org/Product'>
+                                        <meta content='AmboDev' itemprop='name' />
+                                        <meta content='https://image.freepik.com/free-vector/app-learn-languages_52683-43478.jpg' itemprop='image' />
+                                        <meta
+                                            content='Ambo Dev Desain Terbaik Website Professional Dengan Harga Bersaing.'
+                                            itemprop='description' />
+                                        <meta content='SKU-1234567890123456789' itemprop='sku' />
+                                        <meta content='MPN-1234567890123456789' itemprop='mpn' />
+                                        <meta content='Ambo Dev' itemprop='brand' />
+                                        <div class='hide' itemprop='aggregateRating' itemscope=''
+                                            itemtype='http://schema.org/AggregateRating'>
+                                            <meta content='1' itemprop='reviewCount' />
+                                            <meta content='4' itemprop='ratingValue' />
+                                        </div>
+                                        <div class='hide' itemprop='review' itemscope=''
+                                            itemtype='http://schema.org/Review'>
+                                            <div itemprop='author' itemscope='' itemtype='http://schema.org/Person'>
+                                                <meta content='Ambo Dev' itemprop='name' />
+                                            </div>
+                                            <div itemprop='reviewRating' itemscope=''
+                                                itemtype='http://schema.org/Rating'>
+                                                <meta content='4' itemprop='ratingValue' />
+                                                <meta content='5' itemprop='bestRating' />
+                                            </div>
+                                        </div>
+                                        <div class='post-body entry-content' id='productID-1234567890123456789'
+                                            itemprop='offers' itemscope='' itemtype='http://schema.org/Offer'>
+                                            <!-- KONTEN POST PRODUK -->
+                                            <div class="separator box-master">
+                                                <a href="#" imageanchor="1"><img alt="AmboDev"
+                                                        data-original-height="470" data-original-width="730"
+                                                        src="https://image.freepik.com/free-vector/app-learn-languages_52683-43478.jpg" /></a>
+                                            </div>
+                                            <div class='deskripsi-utama box-master'>
+                                                Ambo Dev Desain Terbaik Website Professional Dengan Harga Bersaing
+                                            </div>
+                                            <div class='deskripsi-produk box-master'>
+                                                <h4>Tentang Kami</h4>
+                                                Dengan menggunakan jasa website dari kami diharapkan website anda dapat
+                                                bersaing dimesin pencarian google hingga SEO website kamu bisa bersaing
+                                                dengan website besar lainnya dengan keyword yang sudah sesuai dengan
+                                                kategori
+                                                website kamu. <br />
+                                                <br />
+                                                AmboDev Page menggunakan struktur data template terbaik dan
+                                                teroptimasi valid oleh struktur data google. Penggunaan Struktur
+                                                template yang baik dapat meningkatkan segi SEO ONPAGE website
+                                                anda.<br />
+                                                <br />
+                                                Tampilan website kami buat semenarik mungkin agar pembaca bisa nyaman
+                                                membaca diwebsite tersebut dan mengurangi Bounce Rate yang Tinggi pada
+                                                website. Selain itu Website yang kami buat tentunya cepat diakses tidak
+                                                perlu waktu lama untuk load website tersebut.
+                                            </div>
+                                            <div class='gambar-detail box-master'>
+                                                <a href="#">
+                                                    <img alt="AmboDev" data-original-height="470"
+                                                        data-original-width="730" src="assets/img/ui2.png" />
+                                                </a>
+                                                <p class='utama'>Alur Proses Client</p>
+                                            </div>
+                                            <div class='gambar-detail box-master'>
+                                                <a href="#">
+                                                    <img alt="AmboDev" data-original-height="470"
+                                                        data-original-width="730" src="assets/img/ui3.png" />
+                                                </a>
+                                                <p class='utama'>Quality Over Quality</p>
+                                            </div>
+                                            <div class='table-fitur box-master'>
+                                                <h2 class='utama'><b>Fitur</b>AmboDev</h2>
+                                                <p class="utama">Berikut Beberapa Fitur Yang Ada Pada Website Saya.</p>
+                                                <table cellpadding="0" cellspacing="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Responsive Design</td>
+                                                            <td>True</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Google Testing Tool Validator</td>
+                                                            <td>True </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Mobile Friendly</td>
+                                                            <td>True </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Fast Load</td>
+                                                            <td>True </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Gradient CSS</td>
+                                                            <td>True</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>DOM JavaScript</td>
+                                                            <td>True</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>User Experience</td>
+                                                            <td>True</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>User Interface</td>
+                                                            <td>True</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div content='IDR' itemprop='priceCurrency'></div>
+                                            <div content="800000" itemprop="price"></div>
+                                            <meta content='https://schema.org/InStock' itemprop='availability' />
+                                            <meta content='3000-12-12' itemprop='priceValidUntil' />
+                                            <meta content='#' itemprop='url' />
+                                        </div>
+                                    </div>
+                                    <div class='clear'></div>
+                                </article>
+                                <!-- akhir artikel -->
+                            </div>
+                        </div>
+                        <div class='clear'></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Awal Sidebar Kanan -->
+            <aside class='sidebar'>
+                <div class='box-master'>
+                    <a class='button belisekarang wajib' href="#" title='Pesan Sekarang'>Pesan
+                        Sekarang</a>
+                    <a class='button preview' href='#' id='preview' rel='noopener' target='_blank'
+                        title='Lihat Testimoni'>Lihat Testimoni</a>
+                    <br />
+                    <div class='flex-content'><span>Personal</span><span class='hargapersonal biru-tua'>Rp.
+                            800.000</span></div>
+                    <div class='flex-content developer'><span>Developer</span><span class='hargadeveloper biru-muda'>Rp.
+                            4.000.000</span></div>
+                </div>
+                <div class='card-body box-master'>
+                    <div class='flex-content'><span>License By</span><span class='fauzanbar warna'>Ambo Dev</span>
+                    </div>
+                    <div class='flex-content'><span>Released</span><span class='fauzanbar warna'>04/04/2021</span></div>
+                    <div class='flex-content'><span>Theme Version</span><span class='fauzanbar warna'>V 5.0</span></div>
+                    <div class='flex-content'><span>Last Updated</span><span class='fauzanbar warna'>14/10/2021</span>
+                    </div>
+                </div>
+                <div class='changelog box-master'>
+                    <h4><i class='icon ion-ios-copy'> Changelog</i></h4>
+                    <b>Optimasi Seo</b>
+                    <ul>
+                        <li>Ready to Order</li>
+                    </ul>
+                    <b>Company Profile</b>
+                    <ul>
+                        <li>Ready to Order</li>
+                    </ul>
+                    <b>E-Commerce</b>
+                    <ul>
+                        <li>Ready to Order</li>
+                    </ul>
+                    <b>Web Design / UI&UX</b>
+                    <ul>
+                        <li>Ready to Order</li>
+                    </ul>
+                </div>
+                <!-- anggota -->
+                <div class='changelog box-master'>
+                    <h4><i class='icon ion-ios-copy'> Anggota & Jobs Decs</i></h4>
+                    <b>Navbar</b>
+                    <ul>
+                        <li>Fefbiansyah Hasibuan</li>
+                    </ul>
+                    <b>Sidebar</b>
+                    <ul>
+                        <li>Farhan Febryan</li>
+                    </ul>
+                    <b>Main</b>
+                    <ul>
+                        <li>Fauzan Taqiyuddin</li>
+                    </ul>
+                    <b>Footer</b>
+                    <ul>
+                        <li>Fauzi</li>
+                    </ul>
+                </div>
+            </aside>
+            <!-- akhir Sidebar -->
+        </div>
+    </div>
+    <!-- FOOTER ALL PAGES -->
+    <div id='subscribe'>
+        <svg class='wave2' height='50px' preserveAspectRatio='none' viewBox='0 0 1920 75' width='100%'
+            xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+            <defs>
+                <clipPath id='adacinta2'>
+                    <rect class='a' height='75' width='1920'></rect>
+                </clipPath>
+            </defs>
+            <g class='b'>
+                <path class='c'
+                    d='M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48'>
+                </path>
+            </g>
+            <g class='b'>
+                <path class='d'
+                    d='M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10'>
+                </path>
+            </g>
+            <g class='b'>
+                <path class='d'
+                    d='M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24'>
+                </path>
+            </g>
+            <g class='b'>
+                <path class='d'
+                    d='M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150'>
+                </path>
+            </g>
+        </svg>
+        <div class='wrapper'>
+            <h3 class='utama'><b>Apa aja yang ada di web sederhana ini ?</b></h3>
+            <p class='utama'>Web ini menggunakan Pure CSS, Manipulasi Gambar dengan JS, Animasi sederhana, Icon SVG &
+                Ionicons
+            </p>
+        </div>
+    </div>
+    <!-- END FOOTER FOR ALL PAGES -->
+    <!-- FOOTER CREDIT -->
+    <footer id='footer' itemscope='itemscope' itemtype='https://schema.org/WPFooter'>
+        <div class='wrapper'>
+            <div class='footer-center'>&#169; 2021 <a>AmboDev.</a> || <b>Project Team <i class='icon ion-ios-heart'>
+                        Progate </b></i></div>
+        </div>
+    </footer>
+    <div class='menubottom '>
+        <!--float menubottom by Ambo Dev-->
+        <nav>
+            <ul class="fauzan">
+                <li class='ripple'>
+                    <a href='#' itemprop='url' title='Home'><svg height='24' viewBox='0 0 24 24' width='24'>
+                            <path d='M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z' /></svg><span
+                            itemprop='name'></span></a>
+                </li>
+                <li class='ripple'>
+                    <a href='#' itemprop='url' title='Menu'><svg height='24' viewBox='0 0 24 24' width='24'>
+                            <path
+                                d='M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z' />
+                        </svg><span itemprop='name'></span></a>
+                </li>
+                <li class='ripple'>
+                    <a href='#' itemprop='url' title='Share'><svg height='24' viewBox='0 0 24 24' width='24'>
+                            <path
+                                d='M18,16.08C17.24,16.08 16.56,16.38 16.04,16.85L8.91,12.7C8.96,12.47 9,12.24 9,12C9,11.76 8.96,11.53 8.91,11.3L15.96,7.19C16.5,7.69 17.21,8 18,8A3,3 0 0,0 21,5A3,3 0 0,0 18,2A3,3 0 0,0 15,5C15,5.24 15.04,5.47 15.09,5.7L8.04,9.81C7.5,9.31 6.79,9 6,9A3,3 0 0,0 3,12A3,3 0 0,0 6,15C6.79,15 7.5,14.69 8.04,14.19L15.16,18.34C15.11,18.55 15.08,18.77 15.08,19C15.08,20.61 16.39,21.91 18,21.91C19.61,21.91 20.92,20.61 20.92,19A2.92,2.92 0 0,0 18,16.08Z' />
+                        </svg><span itemprop='name'></span></a>
+                </li>
+                <li class='ripple'>
+                    <a href='#' itemprop='url' title='Kategory'><svg height='24' viewBox='0 0 24 24' width='24'>
+                            <path
+                                d='M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13C15,12.45 14.55,12 14,12H8V10H10C10.55,10 11,9.55 11,9V7H13C14.1,7 15,6.1 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16C9,17.1 9.9,18 11,18M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2Z' />
+                        </svg><span itemprop='name'></span></a>
+                </li>
+                <li class='ripple'>
+                    <a href='#' itemprop='url' title='Show Chat'><svg height='24' viewBox='0 0 24 24' width='24'>
+                            <path
+                                d='M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z' />
+                        </svg><span itemprop='name'></span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- END FOOTER CREDIT -->
+    <!-- Manipulasi JS dan DOM Js -->
+    <script async='async' src="assets/js/progate.js"></script>
+    <script defer='defer' src='assets/js/jquery.js'></script>
+    <!--  -->
+
 </body>
-</html>
+
+</HTML>
